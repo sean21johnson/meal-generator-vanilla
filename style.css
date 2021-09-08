@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Muli';
+}
+
+.upper_content {
+    margin-top: 50px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal_content {
+    max-width: 1000px;
+}
+
+.upper_content {
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0px 0px;
+    
+}
+
+.upper_para {
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 40px;
+    background-color: #33C3F0;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.meal_pic_description {
+    display: flex;
+    flex-direction: row;
+}
+
+.meal_pic_description_left, .meal_pic_description_right, .meal_video {
+    display: flex;
+    flex-direction: column;
+}
+
+.meal_ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.meal_pic_description_left {
+    margin-right: 50px;
+}
+
+.meal_pic_container {
+    width: 400px; 
+}
+
+img {
+    width: 100%;
+}
+
+.meal_type {
+    margin-bottom: 0px;
+}
+
+.meal_title {
+    margin-top: 0px;
+}
+
+h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.meal_video_title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+

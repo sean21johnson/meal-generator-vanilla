@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Sean's Meal Generator</title>
-</head>
-<body>
-    
-    <script src="script.js"></script>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Sean's Meal Generator</title>
+	</head>
+	<body>
+		<section class="upper_content">
+			<div>
+				<h1>Feeling hungry?</h1>
+			</div>
+			<div>
+				<p class="upper_para">Get a random meal by clicking below</p>
+			</div>
+			<div>
+				<button class="meal_btn" id="meal_btn">Get Meal 🍔</button>
+			</div>
+		</section>
+
+		<section id="meal_content" class="meal_content">
+			<div class="meal_pic_description">
+				<div class="meal_pic_description_left">
+					<div class="meal_pic_container">
+						<img id="random_meal_pic" />
+					</div>
+					<p class="meal_type" id="meal_category">
+					</p>
+					<p class="meal_type" id="meal_area">
+					</p>
+				</div>
+				<div class="meal_pic_description_right">
+					<div class="meal_desription">
+						<h2 class="meal_title" id="meal_title"></h2>
+						<p class="meal_description" id="meal_description"></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="meal_ingredients">
+                <h3></h3>
+				<ul class="ingredients_list" id="ingredients_list"></ul>
+			</div>
+
+			<div class="meal_video">
+				<p class="meal_video_title" id="meal_video_title"></p>
+				<div class="video_container" id="video_container">
+                </div>
+			</div>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
 </html>
